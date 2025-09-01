@@ -4,7 +4,7 @@ from detector.rule_based import is_smishing
 from detector.ml_classifier import predict_message
 
 # Replace with your bot token
-BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
+BOT_TOKEN = "8036312956:AAEJEINEXeU-unYhJiEcXnCINvIWHs1_DNK"
 
 def start(update: Update, context: CallbackContext):
     update.message.reply_text(
@@ -34,3 +34,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
